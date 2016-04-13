@@ -1,6 +1,6 @@
 # Assignment 6 - Web Application to Manage Beverages
 
-## Due 12-17-2015
+## Due 04-27-2016
 
 ## Author
 
@@ -62,6 +62,18 @@ DatabaseName: Beverage + FirstInital + LastName
 *NOTE: There is a database for each person. Use the one that is for you. Don't be a troll. If I hear about you trolling on someone elses database, you will get a zero for the assignment!
 ********************************************************************************************
 
+The id field should not be updated since it is a primary key. Therefore it does not need to be updated.
+The id field does however need to be entered when creating a new record in the database. (Adding a new beverage)
+The fields that do need to be allowed to be entered for update are the following.
+
+Updatable Fields:
+* Description
+* Pack
+* Price
+* Decimal
+
+
+
 Solution Requirements:
 
 * 4 Main pages: Home, Contact, About, and Beverages
@@ -86,10 +98,7 @@ You can get up to 20 assignment points of extra credit by doing the following:
 
 ### Notes
 
-There are a few Youtube videos I found that should help you out with MVC.
-
-This one is really good and I think it is from lynda.com:
-[Lynda](https://www.youtube.com/watch?v=5KxF476mRFE)
+There is a Youtube video I found that should help you out with MVC.
 
 This one is okay, and it is from Microsoft:
 [Microsoft](https://www.youtube.com/watch?v=XRXYa_NyLSQ)
