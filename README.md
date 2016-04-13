@@ -103,6 +103,18 @@ There is a Youtube video I found that should help you out with MVC.
 This one is okay, and it is from Microsoft:
 [Microsoft](https://www.youtube.com/watch?v=XRXYa_NyLSQ)
 
+If you get an error related to not being able to attach the .mdf file, which is a database file do the following:
+# Click the Tools Dropdown -> Library Package Manager -> Package Manager Console
+# In the console that appears at the bottom of the screen type
+# sqllocaldb.exe stop v11.0
+# Press enter
+# sqllocaldb.exe delete v11.0
+# Press enter
+# Re-Run your application. This should fix the problem
+
+If you get an error related to Owin, you need to go into your
+browser and delete all your cookies. I'm sure only a few are
+the culprit, but I don't know which ones.
 
 ## Outside Resources Used
 
