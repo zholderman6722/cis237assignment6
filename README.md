@@ -90,6 +90,7 @@ Solution Requirements:
 
 ### Extra Credit
 You can get up to 20 assignment points of extra credit by doing the following:
+
 * Validate all information that is submitted to ensure it is valid for both Update and Create of Beverages.
 * Use JavaScript / jQuery to handle getting to the edit page of a item in the list by setting a click listener on the table row for the item. (This would replace the edit link from scaffolding)
 * Use JavaScript / jQuery to pop up a confirmation delete message when deleting a beverage.
@@ -104,13 +105,14 @@ This one is okay, and it is from Microsoft:
 [Microsoft](https://www.youtube.com/watch?v=XRXYa_NyLSQ)
 
 If you get an error related to not being able to attach the .mdf file, which is a database file do the following:
-# Click the Tools Dropdown -> Library Package Manager -> Package Manager Console
-# In the console that appears at the bottom of the screen type
-# sqllocaldb.exe stop v11.0
-# Press enter
-# sqllocaldb.exe delete v11.0
-# Press enter
-# Re-Run your application. This should fix the problem
+
+1. Click the Tools Dropdown -> Library Package Manager -> Package Manager Console
+2. In the console that appears at the bottom of the screen type
+3. sqllocaldb.exe stop v11.0
+4. Press enter
+5. sqllocaldb.exe delete v11.0
+6. Press enter
+7. Re-Run your application. This should fix the problem
 
 If you get an error related to Owin, you need to go into your
 browser and delete all your cookies. I'm sure only a few are
