@@ -32,7 +32,7 @@ The Beverages page should list all of the beverages stored in the same database 
 
 There should also be a way to create a new item to be added to the beverages database. This will require an additional page to implement the functionality.
 
-At the top of the Beverages list page there should be a filter that can be used to filter the contents of the beverages list. Filter fields should include Name, Pack, Min Price, Max Price, and Active. There should be a button in the filter section to submit the filter. Submitting the filter will cause the application to store the filter information in the session, and then use that information to display a filtered version of the data in the database.
+At the top of the Beverages list page there should be a filter that can be used to filter the contents of the beverages list. Filter fields should include Name, Pack, Min Price, and Max Price. There should be a button in the filter section to submit the filter. Submitting the filter will cause the application to store the filter information in the session, and then use that information to display a filtered version of the data in the database.
 
 It is okay to use scaffolding to create Views, however you may need to then go in and tweak Views to add more functionality to them. (Filter)
 
@@ -43,6 +43,14 @@ The EntityFramework Models that are created for the Beverages, and the ones that
 You must create your own Controller for handling the work of maintaining the Beverages and dealing with any pages related to maintaining the beverages. This will be the Controller portion of MVC.
 
 You must create any Views that you need to for handling the work of maintain the Beverages. This includes the list of beverages and views to add, update, and delete. This will be the View portion of MVC.
+
+When creating a new beverage, the user must be able to enter in the id for the beverage. When updating a beverage, the user should NOT enter in the id. Since the id is a primary key, users should be unable to change that.
+The list of updatable fields are as follows:
+
+* Description
+* Pack
+* Pack
+* Active
 
 Here is a reminder of how to connect to your Beverage Database.
 
@@ -62,19 +70,7 @@ DatabaseName: Beverage + FirstInital + LastName
 *NOTE: There is a database for each person. Use the one that is for you. Don't be a troll. If I hear about you trolling on someone elses database, you will get a zero for the assignment!
 ********************************************************************************************
 
-The id field should not be updated since it is a primary key. Therefore it does not need to be updated.
-The id field does however need to be entered when creating a new record in the database. (Adding a new beverage)
-The fields that do need to be allowed to be entered for update are the following.
-
-Updatable Fields:
-* Description
-* Pack
-* Price
-* Decimal
-
-
-
-Solution Requirements:
+### Solution Requirements:
 
 * 4 Main pages: Home, Contact, About, and Beverages
 * Beverages must be augmented by any additional needed pages to perform CRUD
@@ -89,7 +85,7 @@ Solution Requirements:
 * Denied access to beverages page for non-logged in users.
 
 ### Extra Credit
-You can get up to 20 assignment points of extra credit by doing the following:
+You can get up to 40 assignment points of extra credit by doing the following:
 
 * Validate all information that is submitted to ensure it is valid for both Update and Create of Beverages.
 * Use JavaScript / jQuery to handle getting to the edit page of a item in the list by setting a click listener on the table row for the item. (This would replace the edit link from scaffolding)
