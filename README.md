@@ -87,10 +87,10 @@ DatabaseName: Beverage + FirstInital + LastName
 ### Extra Credit
 You can get up to 40 assignment points of extra credit by doing the following:
 
-* Validate all information that is submitted to ensure it is valid for both Update and Create of Beverages.
+* Validate all information that is submitted to ensure it is valid. This includes Insert, Update, and Filtering of Beverages.
 * Use JavaScript / jQuery to handle getting to the edit page of a item in the list by setting a click listener on the table row for the item. (This would replace the edit link from scaffolding)
 * Use JavaScript / jQuery to pop up a confirmation delete message when deleting a beverage.
-* Ability to click on a table header and sort the list of items by that column.
+* Ability to click on a table header and sort the list of items by that column. You must do at least 2 column headings.
 * Write at least 2 unit tests to verify your code.
 
 ### Notes
