@@ -1,6 +1,6 @@
 # Assignment 6 - Web Application to Manage Beverages
 
-## Due 04-27-2016
+## Due 12-15-2016 (11:59pm)
 
 ## Author
 
@@ -9,9 +9,9 @@
 You are to create a web application using ASP.NET MVC to manage our beverage database.
 The application should have the following pages and navigation:
 
-A Home page.
-A Contact page.
-A About page.
+A Home page that is not the default.
+A Contact page that is not the default.
+A About page that is not the default.
 A Beverages page that can only be seen when the user is logged in.
 Other CRUD related pages to augment the Beverages page.
 All of the built in user account pages.
@@ -67,7 +67,7 @@ Password: password (If you would like me to change your password to something el
 DatabaseName: Beverage + FirstInital + LastName
 
 ********************************************************************************************
-*NOTE: There is a database for each person. Use the one that is for you. Don't be a troll. If I hear about you trolling on someone elses database, you will get a zero for the assignment!
+*NOTE: There is a database for each person. Use the one that is for you. Don't be a troll. If I hear about you trolling on someone else's database, you will get a zero for the assignment!
 ********************************************************************************************
 
 ### Solution Requirements:
@@ -89,7 +89,7 @@ You can get up to 40 assignment points of extra credit by doing the following:
 
 * Validate all information that is submitted to ensure it is valid. This includes Insert, Update, and Filtering of Beverages.
 * Use JavaScript / jQuery to handle getting to the edit page of a item in the list by setting a click listener on the table row for the item. (This would replace the edit link from scaffolding)
-* Use JavaScript / jQuery to pop up a confirmation delete message when deleting a beverage.
+* Use JavaScript / jQuery to pop up a confirmation delete message when deleting a beverage. (I realize that there is already a delete check, but I want a JS one for the Extra Credit)
 * Ability to click on a table header and sort the list of items by that column. You must do at least 2 column headings.
 * Write at least 2 unit tests to verify your code.
 
@@ -114,8 +114,23 @@ If you get an error related to Owin, you need to go into your
 browser and delete all your cookies. I'm sure only a few are
 the culprit, but I don't know which ones.
 
+## Grading
+| Feature                                 | Points |
+|-----------------------------------------|--------|
+| EF Models                               | 10     |
+| Insert Functionality                    | 5      |
+| Update Functionality                    | 5      |
+| Delete Functionality                    | 5      |
+| List All                                | 5      |
+| Filter                                  | 15     |
+| Master Page                             | 5      |
+| CRUD Pages                              | 15     |
+| Update Default Pages                    | 10     |
+| Auth Protection Beverages               | 15     |
+| Documentation                           | 5      |
+| README                                  | 5      |
+| Total                                   | 100    |
+
 ## Outside Resources Used
 
 ## Known Problems, Issues, And/Or Errors in the Program
-
-
