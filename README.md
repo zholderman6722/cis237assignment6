@@ -1,6 +1,6 @@
 # Assignment 6 - Web Application to Manage Beverages
 
-## Due 12-15-2016 (11:59pm)
+## Due 04-26-2016 (11:59pm)
 
 ## Author
 
