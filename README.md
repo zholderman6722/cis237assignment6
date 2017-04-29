@@ -2,7 +2,7 @@
 
 ## Due 04-28-2017 (11:59pm)
 
-## Author
+## Zachery Holderman
 
 ## Description
 
@@ -134,3 +134,4 @@ the culprit, but I don't know which ones.
 ## Outside Resources Used
 
 ## Known Problems, Issues, And/Or Errors in the Program
+None that I am aware of. Let me know if this worked because the program froze on me as KVCC was closing so I force shut down the computer. THere was no errors that I was aware of before I shut it down.
